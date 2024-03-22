@@ -5,16 +5,16 @@
 	<Style id="falseColor">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[Aguas Profundas/clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[Aguas Profundas/categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[Aguas Profundas/recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[Aguas Profundas/sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[Aguas Profundas/superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[Aguas Profundas/actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[Aguas Profundas/fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[Aguas Profundas/dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[Aguas Profundas/versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[Aguas Profundas/liga_de_de]</td></tr>
+  <tr><td><b>clave</b></td><td>$[clave]</td></tr>
+  <tr><td><b>categora</b></td><td>$[categora]</td></tr>
+  <tr><td><b>recurso</b></td><td>$[recurso]</td></tr>
+  <tr><td><b>sector</b></td><td>$[sector]</td></tr>
+  <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
+  <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
+  <tr><td><b>fecha_de_d</b></td><td>$[fecha_de_d]</td></tr>
+  <tr><td><b>dependenci</b></td><td>$[dependenci]</td></tr>
+  <tr><td><b>versin</b></td><td>$[versin]</td></tr>
+  <tr><td><b>liga_de_de</b></td><td>$[liga_de_de]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -25,16 +25,16 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[Aguas Profundas/clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[Aguas Profundas/categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[Aguas Profundas/recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[Aguas Profundas/sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[Aguas Profundas/superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[Aguas Profundas/actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[Aguas Profundas/fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[Aguas Profundas/dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[Aguas Profundas/versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[Aguas Profundas/liga_de_de]</td></tr>
+  <tr><td><b>clave</b></td><td>$[clave]</td></tr>
+  <tr><td><b>categora</b></td><td>$[categora]</td></tr>
+  <tr><td><b>recurso</b></td><td>$[recurso]</td></tr>
+  <tr><td><b>sector</b></td><td>$[sector]</td></tr>
+  <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
+  <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
+  <tr><td><b>fecha_de_d</b></td><td>$[fecha_de_d]</td></tr>
+  <tr><td><b>dependenci</b></td><td>$[dependenci]</td></tr>
+  <tr><td><b>versin</b></td><td>$[versin]</td></tr>
+  <tr><td><b>liga_de_de</b></td><td>$[liga_de_de]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
