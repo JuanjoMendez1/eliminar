@@ -2,6 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Aguas Profundas.shp</name>
+	<Style>
+		<ListStyle>
+			<listItemType>radioFolder</listItemType>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>2</maxSnippetLines>
+		</ListStyle>
+	</Style>
 	<Style id="falseColor">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -11,47 +18,72 @@
   <tr><td><b>sector</b></td><td>$[sector]</td></tr>
   <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
   <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[liga_de_de]</td></tr>
+  <tr><td><b>entidad</b></td><td>$[entidad]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
+		<LineStyle>
+			<color>ffcccbcb</color>
+			<width>0.5</width>
+		</LineStyle>
 		<PolyStyle>
-			<color>e6b47553</color>
+			<color>99db8e59</color>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor0">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[liga_de_de]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<color>e6b47553</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor1">
+	<StyleMap id="falseColor0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[
+				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[clave]</b></h5>
+				<table style="border: solid 1px #3e8ed0;">
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Clave</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[clave]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Categoría</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[categora]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Recurso</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[recurso]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Sector</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[sector]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Actividad</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Entidad</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[entidad]</td>
+					</tr>
+				</table>
+			]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffcccbcb</color>
+			<width>0.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99db8e59</color>
+		</PolyStyle>
+	</Style>
 	<Folder id="layer 0">
 		<name>Aguas Profundas</name>
 		<Placemark>
