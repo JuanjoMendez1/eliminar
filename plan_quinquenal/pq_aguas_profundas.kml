@@ -18,7 +18,7 @@
   <tr><td><b>sector</b></td><td>$[sector]</td></tr>
   <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
   <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
-  <tr><td><b>entidad</b></td><td>$[entidad]</td></tr>
+  <tr><td><b>entidad</b></td><td>$[liga_de_de]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -71,7 +71,7 @@
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Entidad</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[entidad]</td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[liga_de_de]</td>
 					</tr>
 				</table>
 			]]></text>
