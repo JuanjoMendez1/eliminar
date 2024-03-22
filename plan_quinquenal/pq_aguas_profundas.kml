@@ -87,7 +87,7 @@
 	<Folder id="layer 0">
 		<name>Aguas Profundas</name>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 					<Data name="clave">AP-CM-43</Data>
 					<Data name="categora">AGUAS PROFUNDAS</Data>
