@@ -24,21 +24,31 @@
 		<SimpleField type="string" name="liga_de_de"><displayName>&lt;b&gt;liga_de_de&lt;/b&gt;</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="falseColor">
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[Aguas Someras/clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[Aguas Someras/categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[Aguas Someras/recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[Aguas Someras/sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[Aguas Someras/superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[Aguas Someras/actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[Aguas Someras/fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[Aguas Someras/dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[Aguas Someras/versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[Aguas Someras/liga_de_de]</td></tr>
-</table>
-]]></text>
+			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[clave]</b></h5>
+<table style="border: solid 1px #3e8ed0;">
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>clave</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[clave]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>categora</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[categora]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>recurso</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[recurso]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>sector</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[sector]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>superficie</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>actividad</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>fecha_de_d</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_d]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>dependenci</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[dependenci]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>versin</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[versin]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>liga_de_de</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[liga_de_de]</td></tr>
+</table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<width>0.7</width>
@@ -47,31 +57,21 @@
 			<color>e6cdb36f</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="falseColor1">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[Aguas Someras/clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[Aguas Someras/categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[Aguas Someras/recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[Aguas Someras/sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[Aguas Someras/superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[Aguas Someras/actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[Aguas Someras/fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[Aguas Someras/dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[Aguas Someras/versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[Aguas Someras/liga_de_de]</td></tr>
-</table>
-]]></text>
+			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[clave]</b></h5>
+<table style="border: solid 1px #3e8ed0;">
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>clave</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[clave]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>categora</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[categora]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>recurso</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[recurso]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>sector</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[sector]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>superficie</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>actividad</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>fecha_de_d</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_d]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>dependenci</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[dependenci]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>versin</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[versin]</td></tr>
+  <tr><td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>liga_de_de</b></td><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[liga_de_de]</td></tr>
+</table>]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<width>0.7</width>
@@ -83,7 +83,7 @@
 	<Folder id="layer 0">
 		<name>Aguas Someras</name>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-01</SimpleData>
@@ -109,7 +109,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-02</SimpleData>
@@ -135,7 +135,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-03</SimpleData>
@@ -161,7 +161,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-04</SimpleData>
@@ -187,7 +187,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-05</SimpleData>
@@ -213,7 +213,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-06</SimpleData>
@@ -239,7 +239,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-07</SimpleData>
@@ -265,7 +265,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-21</SimpleData>
@@ -291,7 +291,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-22</SimpleData>
@@ -317,7 +317,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-23</SimpleData>
@@ -343,7 +343,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-24</SimpleData>
@@ -369,7 +369,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-28</SimpleData>
@@ -395,7 +395,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-29</SimpleData>
@@ -421,7 +421,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-30</SimpleData>
@@ -447,7 +447,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-31</SimpleData>
@@ -473,7 +473,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-34</SimpleData>
@@ -499,7 +499,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-35</SimpleData>
@@ -525,7 +525,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-36</SimpleData>
@@ -551,7 +551,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-41</SimpleData>
@@ -577,7 +577,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-42</SimpleData>
@@ -603,7 +603,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-43</SimpleData>
@@ -629,7 +629,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-44</SimpleData>
@@ -655,7 +655,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-45</SimpleData>
@@ -681,7 +681,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-46</SimpleData>
@@ -707,7 +707,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-47</SimpleData>
@@ -733,7 +733,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-48</SimpleData>
@@ -759,7 +759,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-53</SimpleData>
@@ -785,7 +785,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-54</SimpleData>
@@ -811,7 +811,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-55</SimpleData>
@@ -837,7 +837,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-56</SimpleData>
@@ -863,7 +863,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-61</SimpleData>
@@ -889,7 +889,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-62</SimpleData>
@@ -915,7 +915,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-63</SimpleData>
@@ -941,7 +941,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-64</SimpleData>
@@ -967,7 +967,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-65</SimpleData>
@@ -993,7 +993,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-66</SimpleData>
@@ -1019,7 +1019,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-B-67</SimpleData>
@@ -1045,7 +1045,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-CS-01</SimpleData>
@@ -1071,7 +1071,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-02</SimpleData>
@@ -1097,7 +1097,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-05</SimpleData>
@@ -1123,7 +1123,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-06</SimpleData>
@@ -1149,7 +1149,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-07</SimpleData>
@@ -1175,7 +1175,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-08</SimpleData>
@@ -1201,7 +1201,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-09</SimpleData>
@@ -1227,7 +1227,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-10</SimpleData>
@@ -1253,7 +1253,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS-TMV-11</SimpleData>
@@ -1279,7 +1279,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">AS1001</SimpleData>
@@ -1305,7 +1305,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-BG-01</SimpleData>
@@ -1331,7 +1331,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-BG-02</SimpleData>
@@ -1357,7 +1357,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-BG-03</SimpleData>
@@ -1383,7 +1383,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-BG-04</SimpleData>
@@ -1409,7 +1409,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-BG-06</SimpleData>
@@ -1435,7 +1435,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-05</SimpleData>
@@ -1461,7 +1461,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-06</SimpleData>
@@ -1487,7 +1487,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-07</SimpleData>
@@ -1513,7 +1513,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-08</SimpleData>
@@ -1539,7 +1539,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-09</SimpleData>
@@ -1565,7 +1565,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-10</SimpleData>
@@ -1591,7 +1591,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-11</SimpleData>
@@ -1617,7 +1617,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-12</SimpleData>
@@ -1643,7 +1643,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_Aguas_Someras_SSSSDSSSSS">
 					<SimpleData name="clave">G-TMV-13</SimpleData>
