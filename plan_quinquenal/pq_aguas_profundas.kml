@@ -33,7 +33,7 @@
 	<StyleMap id="falseColor0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -111,7 +111,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 					<Data name="clave">AP-CM-44</Data>
 					<Data name="categora">AGUAS PROFUNDAS</Data>
@@ -135,7 +135,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-51</Data>
@@ -161,7 +161,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-52</Data>
@@ -187,7 +187,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-54</Data>
@@ -213,7 +213,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-64</Data>
@@ -239,7 +239,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-66</Data>
@@ -265,7 +265,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-67</Data>
@@ -291,7 +291,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-68</Data>
@@ -317,7 +317,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-74</Data>
@@ -343,7 +343,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-75</Data>
@@ -369,7 +369,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-76</Data>
@@ -395,7 +395,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-77</Data>
@@ -421,7 +421,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-78</Data>
@@ -447,7 +447,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-80</Data>
@@ -473,7 +473,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-81</Data>
@@ -499,7 +499,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-G02</Data>
@@ -525,7 +525,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-G04</Data>
@@ -551,7 +551,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-G07</Data>
@@ -577,7 +577,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-G08</Data>
@@ -603,7 +603,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CM-G10</Data>
@@ -629,7 +629,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-05</Data>
@@ -655,7 +655,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-09</Data>
@@ -681,7 +681,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-10</Data>
@@ -707,7 +707,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-12</Data>
@@ -733,7 +733,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-19</Data>
@@ -759,7 +759,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-24</Data>
@@ -785,7 +785,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-41</Data>
@@ -811,7 +811,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-43</Data>
@@ -837,7 +837,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-48</Data>
@@ -863,7 +863,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-53</Data>
@@ -889,7 +889,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-58</Data>
@@ -915,7 +915,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-59</Data>
@@ -941,7 +941,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-64</Data>
@@ -967,7 +967,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-CS-G08</Data>
@@ -993,7 +993,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-02</Data>
@@ -1019,7 +1019,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-07</Data>
@@ -1045,7 +1045,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-11</Data>
@@ -1071,7 +1071,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-35</Data>
@@ -1097,7 +1097,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-36</Data>
@@ -1123,7 +1123,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-44</Data>
@@ -1149,7 +1149,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-45</Data>
@@ -1175,7 +1175,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-46</Data>
@@ -1201,7 +1201,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-47</Data>
@@ -1227,7 +1227,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-G01</Data>
@@ -1253,7 +1253,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-G08</Data>
@@ -1279,7 +1279,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP-P-G09</Data>
@@ -1305,7 +1305,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP2001</Data>
@@ -1331,7 +1331,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP2002</Data>
@@ -1357,7 +1357,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP2003</Data>
@@ -1383,7 +1383,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				
 					<Data name="clave">AP2004</Data>
