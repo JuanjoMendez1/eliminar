@@ -9,7 +9,7 @@
 			<maxSnippetLines>2</maxSnippetLines>
 		</ListStyle>
 	</Style> -->
-	<Schema id="S_Aguas_Profundas_SSSSDSSSSS">
+	<!-- <Schema id="S_Aguas_Profundas_SSSSDSSSSS">
 		<SimpleField type="string" name="clave"><displayName>&lt;b&gt;clave&lt;/b&gt;</displayName>
 </SimpleField>
 		<SimpleField type="string" name="categora"><displayName>&lt;b&gt;categora&lt;/b&gt;</displayName>
@@ -30,7 +30,7 @@
 </SimpleField>
 		<SimpleField type="string" name="liga_de_de"><displayName>&lt;b&gt;liga_de_de&lt;/b&gt;</displayName>
 </SimpleField>
-	</Schema>
+	</Schema> -->
 	<!-- <Style id="falseColor">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
