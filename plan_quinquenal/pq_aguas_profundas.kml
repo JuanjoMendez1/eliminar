@@ -173,6 +173,7 @@
 
 	<Folder id="layer 0">
 		<name>Aguas Profundas</name>
+		<open>1</open>
 		<Placemark>
 			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
