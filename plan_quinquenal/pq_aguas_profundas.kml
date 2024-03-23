@@ -9,7 +9,7 @@
 			<maxSnippetLines>2</maxSnippetLines>
 		</ListStyle>
 	</Style> -->
-	<Schema name="Aguas Profundas" id="S_Aguas_Profundas_SSSSDSSSSS">
+	<Schema id="S_Aguas_Profundas_SSSSDSSSSS">
 		<SimpleField type="string" name="clave"><displayName>&lt;b&gt;clave&lt;/b&gt;</displayName>
 </SimpleField>
 		<SimpleField type="string" name="categora"><displayName>&lt;b&gt;categora&lt;/b&gt;</displayName>
@@ -129,7 +129,7 @@
 	<Style id="falseColor1">
 		<BalloonStyle>
 			<text><![CDATA[
-				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[Aguas Profundas/clave]</b></h5>
+				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[clave]</b></h5>
 				<table style="border: solid 1px #3e8ed0;">
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Clave</b></td>
