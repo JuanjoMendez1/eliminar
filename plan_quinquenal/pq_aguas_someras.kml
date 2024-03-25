@@ -27,11 +27,11 @@
 ]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>ffcccbcb</color>
+			<color>fffafafa</color>
 			<width>0.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>99db8e59</color>
+			<color>80ffff55</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="falseColor0">
