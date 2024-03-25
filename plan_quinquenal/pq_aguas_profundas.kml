@@ -74,15 +74,15 @@
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Fecha</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_d]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Dependencia</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Dependencia</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[dependenci]</td>
 					</tr>
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Versión</b></td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Versión</b></td>
 						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[versin]</td>
 					</tr>
 					<tr>
