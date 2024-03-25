@@ -2,93 +2,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Aguas Profundas.shp</name>
-	<!-- <Style>
-		<ListStyle>
-			<listItemType>check</listItemType>
-			<bgColor>00ffffff</bgColor>
-			<maxSnippetLines>2</maxSnippetLines>
-		</ListStyle>
-	</Style> -->
-	<!-- <Schema id="S_Aguas_Profundas_SSSSDSSSSS">
-		<SimpleField type="string" name="clave"><displayName>&lt;b&gt;clave&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="categora"><displayName>&lt;b&gt;categora&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="recurso"><displayName>&lt;b&gt;recurso&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="sector"><displayName>&lt;b&gt;sector&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="superficie"><displayName>&lt;b&gt;superficie&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="actividad"><displayName>&lt;b&gt;actividad&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="fecha_de_d"><displayName>&lt;b&gt;fecha_de_d&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="dependenci"><displayName>&lt;b&gt;dependenci&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="versin"><displayName>&lt;b&gt;versin&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="string" name="liga_de_de"><displayName>&lt;b&gt;liga_de_de&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema> -->
-	<!-- <Style id="falseColor">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[Aguas Profundas/clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[Aguas Profundas/categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[Aguas Profundas/recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[Aguas Profundas/sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[Aguas Profundas/superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[Aguas Profundas/actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[Aguas Profundas/fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[Aguas Profundas/dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[Aguas Profundas/versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[Aguas Profundas/liga_de_de]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<LineStyle>
-			<width>0.7</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>99ffb16b</color>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor0">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>clave</b></td><td>$[Aguas Profundas/clave]</td></tr>
-  <tr><td><b>categora</b></td><td>$[Aguas Profundas/categora]</td></tr>
-  <tr><td><b>recurso</b></td><td>$[Aguas Profundas/recurso]</td></tr>
-  <tr><td><b>sector</b></td><td>$[Aguas Profundas/sector]</td></tr>
-  <tr><td><b>superficie</b></td><td>$[Aguas Profundas/superficie]</td></tr>
-  <tr><td><b>actividad</b></td><td>$[Aguas Profundas/actividad]</td></tr>
-  <tr><td><b>fecha_de_d</b></td><td>$[Aguas Profundas/fecha_de_d]</td></tr>
-  <tr><td><b>dependenci</b></td><td>$[Aguas Profundas/dependenci]</td></tr>
-  <tr><td><b>versin</b></td><td>$[Aguas Profundas/versin]</td></tr>
-  <tr><td><b>liga_de_de</b></td><td>$[Aguas Profundas/liga_de_de]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<LineStyle>
-			<width>0.7</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>99ffb16b</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="falseColor1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-	</StyleMap> -->
-	
-<Style>
+	<open>1</open>
+
+
+	<Style>
 		<ListStyle>
 			<listItemType>radioFolder</listItemType>
 			<bgColor>00ffffff</bgColor>
@@ -104,7 +21,10 @@
   <tr><td><b>sector</b></td><td>$[sector]</td></tr>
   <tr><td><b>superficie</b></td><td>$[superficie]</td></tr>
   <tr><td><b>actividad</b></td><td>$[actividad]</td></tr>
-  <tr><td><b>entidad</b></td><td>$[entidad]</td></tr>
+  <tr><td><b>fecha_de_d</b></td><td>$[fecha_de_d]</td></tr>
+  <tr><td><b>dependenci</b></td><td>$[dependenci]</td></tr>
+  <tr><td><b>versin</b></td><td>$[versin]</td></tr>
+  <tr><td><b>liga_de_de</b></td><td>$[liga_de_de]</td></tr>
 </table>
 ]]></text>
 		</BalloonStyle>
@@ -132,8 +52,8 @@
 				<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[clave]</b></h5>
 				<table style="border: solid 1px #3e8ed0;">
 					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Claveessss</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[Aguas Profundas/clave]</td>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Clave</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[clave]</td>
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Categoría</b></td>
@@ -141,23 +61,35 @@
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Recurso</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[Aguas Profundas/recurso]</td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[recurso]</td>
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Sector</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[Aguas Profundas/sector]</td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[sector]</td>
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[Aguas Profundas/superficie]</td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td>
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Actividad</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[Aguas Profundas/actividad]</td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[actividad]</td>
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Fecha</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[Aguas Profundas/fecha_de_d]</td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_d]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Dependencia</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[dependenci]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Versión</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[versin]</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Liga</b></td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[liga_de_de]</td>
 					</tr>
 				</table>
 			]]></text>
@@ -175,19 +107,19 @@
 		<name>Aguas Profundas</name>
 		<open>1</open>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave"><value>AP-CM-43</value></SimpleData>
-					<SimpleData name="categora"><value>AGUAS PROFUNDAS</value></SimpleData>
-					<SimpleData name="recurso"><value>CONVENCIONAL</value></SimpleData>
-					<SimpleData name="sector"><value>CORDILLERAS MEXICANAS</value></SimpleData>
-					<SimpleData name="superficie"><value>2428.52</value></SimpleData>
-					<SimpleData name="actividad"><value>EXPLORACION Y EXTRACCION</value></SimpleData>
-					<SimpleData name="fecha_de_d"><value>24/01/2023</value></SimpleData>
-					<SimpleData name="dependenci"><value>SENER</value></SimpleData>
-					<SimpleData name="versin"><value>diciembre, 2022</value></SimpleData>
-					<SimpleData name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></SimpleData>
+					<Data name="clave"><value>AP-CM-43</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2428.52</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -201,19 +133,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-44</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2782.41</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-44</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2782.41</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -227,19 +159,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-51</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2786.2</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-51</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2786.2</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -253,19 +185,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-52</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2765.86</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-52</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2765.86</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -279,19 +211,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-54</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">791.932</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-54</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>791.932</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -305,19 +237,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-64</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2025.59</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-64</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2025.59</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -331,19 +263,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-66</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2044.25</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-66</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2044.25</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -357,19 +289,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-67</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">1701.18</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-67</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>1701.18</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -383,19 +315,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-68</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">1779.35</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-68</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>1779.35</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -409,19 +341,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-74</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2169.78</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-74</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2169.78</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -435,19 +367,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-75</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">1788.9</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-75</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>1788.9</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -461,19 +393,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-76</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2052.23</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-76</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2052.23</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -487,19 +419,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-77</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">1699.03</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-77</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>1699.03</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -513,19 +445,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-78</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">1783.74</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-78</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>1783.74</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -539,19 +471,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-80</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">1759.81</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-80</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>1759.81</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -565,19 +497,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-81</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2597.48</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-81</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2597.48</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -591,19 +523,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-G02</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2802.4</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-G02</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2802.4</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -617,19 +549,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-G04</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2796.42</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-G04</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2796.42</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -643,19 +575,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-G07</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">2757.23</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-G07</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>2757.23</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -669,22 +601,21 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-G08</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">3545.12</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-G08</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>3545.12</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
-			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -696,19 +627,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CM-G10</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CORDILLERAS MEXICANAS</SimpleData>
-					<SimpleData name="superficie">3556.72</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CM-G10</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CORDILLERAS MEXICANAS</value></Data>
+					<Data name="superficie"><value>3556.72</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -722,19 +653,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-05</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2200.8</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-05</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2200.8</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -748,19 +679,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-09</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2192.41</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-09</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2192.41</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -774,19 +705,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-10</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2089.79</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-10</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2089.79</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -800,19 +731,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-12</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2013.9</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-12</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2013.9</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -826,19 +757,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-19</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2420.5</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-19</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2420.5</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -852,19 +783,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-24</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2744.97</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-24</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2744.97</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -878,19 +809,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-41</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2854.82</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-41</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2854.82</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -904,19 +835,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-43</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2351.15</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-43</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2351.15</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -930,19 +861,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-48</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">1933.11</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-48</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>1933.11</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -956,19 +887,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-53</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2856.23</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-53</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2856.23</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -982,19 +913,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-58</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2421.84</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-58</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2421.84</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1008,19 +939,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-59</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2205</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-59</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2205</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1034,19 +965,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-64</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2204.37</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-64</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2204.37</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1060,19 +991,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-CS-G08</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">2810.56</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-CS-G08</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>2810.56</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1086,19 +1017,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-02</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">2624.01</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-02</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>2624.01</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1112,19 +1043,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-07</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">2954.64</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-07</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>2954.64</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1138,19 +1069,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-11</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">2978.32</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-11</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>2978.32</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1164,19 +1095,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-35</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">1779.77</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-35</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>1779.77</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1190,19 +1121,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-36</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">1649.6</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-36</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>1649.6</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1216,19 +1147,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-44</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">1630.51</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-44</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>1630.51</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1242,19 +1173,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-45</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">1735.63</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-45</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>1735.63</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1268,19 +1199,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-46</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">1759.28</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-46</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>1759.28</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1294,19 +1225,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-47</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">2976.59</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-47</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>2976.59</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1320,19 +1251,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-G01</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">1988.01</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-G01</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>1988.01</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1346,19 +1277,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-G08</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">2605.88</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-G08</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>2605.88</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1372,19 +1303,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP-P-G09</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">AREA PERDIDO</SimpleData>
-					<SimpleData name="superficie">2671.35</SimpleData>
-					<SimpleData name="actividad">EXPLORACION Y EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP-P-G09</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>AREA PERDIDO</value></Data>
+					<Data name="superficie"><value>2671.35</value></Data>
+					<Data name="actividad"><value>EXPLORACION Y EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1398,19 +1329,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP2001</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">24.1715</SimpleData>
-					<SimpleData name="actividad">EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP2001</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>24.1715</value></Data>
+					<Data name="actividad"><value>EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1424,19 +1355,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP2002</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">8.86678</SimpleData>
-					<SimpleData name="actividad">EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP2002</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>8.86678</value></Data>
+					<Data name="actividad"><value>EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1450,19 +1381,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP2003</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">8.04939</SimpleData>
-					<SimpleData name="actividad">EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP2003</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>8.04939</value></Data>
+					<Data name="actividad"><value>EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
@@ -1476,19 +1407,19 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor1</styleUrl>
+			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<SimpleData name="clave">AP2004</SimpleData>
-					<SimpleData name="categora">AGUAS PROFUNDAS</SimpleData>
-					<SimpleData name="recurso">CONVENCIONAL</SimpleData>
-					<SimpleData name="sector">CUENCA SALINA</SimpleData>
-					<SimpleData name="superficie">58.8372</SimpleData>
-					<SimpleData name="actividad">EXTRACCION</SimpleData>
-					<SimpleData name="fecha_de_d">24/01/2023</SimpleData>
-					<SimpleData name="dependenci">SENER</SimpleData>
-					<SimpleData name="versin">diciembre, 2022</SimpleData>
-					<SimpleData name="liga_de_de">https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</SimpleData>
+					<Data name="clave"><value>AP2004</value></Data>
+					<Data name="categora"><value>AGUAS PROFUNDAS</value></Data>
+					<Data name="recurso"><value>CONVENCIONAL</value></Data>
+					<Data name="sector"><value>CUENCA SALINA</value></Data>
+					<Data name="superficie"><value>58.8372</value></Data>
+					<Data name="actividad"><value>EXTRACCION</value></Data>
+					<Data name="fecha_de_d"><value>24/01/2023</value></Data>
+					<Data name="dependenci"><value>SENER</value></Data>
+					<Data name="versin">diciembre, 2022</value></Data>
+					<Data name="liga_de_de"><value>https://sigeeh.energia.gob.mx/PLANQUINQUENAL/entrada_descarga.htm</value></Data>
 				
 			</ExtendedData>
 			<Polygon>
