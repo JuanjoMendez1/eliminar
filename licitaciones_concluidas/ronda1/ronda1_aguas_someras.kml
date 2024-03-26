@@ -26,7 +26,7 @@
 				<table style="border: solid 1px #3e8ed0;">
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacion]</td>
+						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td>
 					</tr>
 					<tr>
 						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Área</b></td>
@@ -49,7 +49,7 @@
 	<Style id="falseColor0">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[licitacion]</td></tr>
+  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
   <tr><td><b>Área</b></td><td>$[area]</td></tr>
   <tr><td><b>Capa</b></td><td>$[Capa]</td></tr>
 </table>]]></text>
