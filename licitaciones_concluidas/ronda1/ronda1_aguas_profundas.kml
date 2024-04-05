@@ -102,7 +102,7 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<Data name="licitacin"><value>CNH-R01-L04/2015 Es el tercero</value></Data>
+					<Data name="licitacin"><value>CNH-R01-L04/2015 (2)</value></Data>
 					<Data name="area"><value>1-CINTURON PLEGADO PERDIDO</value></Data>
 				
 			</ExtendedData>
@@ -228,7 +228,7 @@
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
-					<Data name="licitacin"><value>CNH-R01-L04/2015 Hay que ver</value></Data>
+					<Data name="licitacin"><value>CNH-R01-L04/2015</value></Data>
 					<Data name="area"><value>4-CINTURON PLEGADO PERDIDO</value></Data>
 				
 			</ExtendedData>
