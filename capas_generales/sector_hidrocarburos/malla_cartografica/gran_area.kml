@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Gran Area.shp</name>
+	<open>1</open>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[
+				<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[clave]</h5>
+			]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff000e</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[
+				<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[clave]</h5>
+			]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff000e</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Gran Area</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>D11</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-114,16.00000000000006,0 -120,16.00000000000006,0 -120,12,0 -114,12,0 -114,16.00000000000006,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>D12</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-107.9999999999999,16.00000000000006,0 -114,16.00000000000006,0 -114,12,0 -107.9999999999999,12,0 -107.9999999999999,16.00000000000006,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>D13</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-102,16.00000000000006,0 -107.9999999999999,16.00000000000006,0 -107.9999999999999,12,0 -102,12,0 -102,16.00000000000006,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>D14</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-95.99999999999994,16.00000000000006,0 -102,16.00000000000006,0 -102,12,0 -95.99999999999994,12,0 -95.99999999999994,16.00000000000006,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>D15</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-90,16.00000000000006,0 -95.99999999999994,16.00000000000006,0 -95.99999999999994,12,0 -90,12,0 -90,16.00000000000006,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>E11</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-114,20.00000000000001,0 -120,20.00000000000001,0 -120,16.00000000000006,0 -114,16.00000000000006,0 -114,20.00000000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>E12</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-107.9999999999999,20.00000000000001,0 -114,20.00000000000001,0 -114,16.00000000000006,0 -107.9999999999999,16.00000000000006,0 -107.9999999999999,20.00000000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>E13</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-102,20.00000000000001,0 -107.9999999999999,20.00000000000001,0 -107.9999999999999,16.00000000000006,0 -102,16.00000000000006,0 -102,20.00000000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>E14</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-95.99999999999994,20.00000000000001,0 -102,20.00000000000001,0 -102,16.00000000000006,0 -95.99999999999994,16.00000000000006,0 -95.99999999999994,20.00000000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>E15</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-90,20.00000000000001,0 -95.99999999999994,20.00000000000001,0 -95.99999999999994,16.00000000000006,0 -90,16.00000000000006,0 -90,20.00000000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>E16</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-83.99999999999994,20.00000000000001,0 -90,20.00000000000001,0 -90,16.00000000000006,0 -83.99999999999994,16.00000000000006,0 -83.99999999999994,20.00000000000001,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>F11</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-114,24.00000000000011,0 -120,24.00000000000011,0 -120,20.00000000000001,0 -114,20.00000000000001,0 -114,24.00000000000011,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>F12</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-107.9999999999999,24.00000000000011,0 -114,24.00000000000011,0 -114,20.00000000000001,0 -107.9999999999999,20.00000000000001,0 -107.9999999999999,24.00000000000011,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>F13</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-102,24.00000000000011,0 -107.9999999999999,24.00000000000011,0 -107.9999999999999,20.00000000000001,0 -102,20.00000000000001,0 -102,24.00000000000011,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>F14</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-95.99999999999994,24.00000000000011,0 -102,24.00000000000011,0 -102,20.00000000000001,0 -95.99999999999994,20.00000000000001,0 -95.99999999999994,24.00000000000011,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>F15</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-90,24.00000000000011,0 -95.99999999999994,24.00000000000011,0 -95.99999999999994,20.00000000000001,0 -90,20.00000000000001,0 -90,24.00000000000011,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>F16</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-83.99999999999994,24.00000000000011,0 -90,24.00000000000011,0 -90,20.00000000000001,0 -83.99999999999994,20.00000000000001,0 -83.99999999999994,24.00000000000011,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>G11</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-114,27.99999999999998,0 -120,27.99999999999998,0 -120,24.00000000000011,0 -114,24.00000000000011,0 -114,27.99999999999998,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>G12</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-107.9999999999999,27.99999999999998,0 -114,27.99999999999998,0 -114,24.00000000000011,0 -107.9999999999999,24.00000000000011,0 -107.9999999999999,27.99999999999998,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>G13</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-102,27.99999999999998,0 -107.9999999999999,27.99999999999998,0 -107.9999999999999,24.00000000000011,0 -102,24.00000000000011,0 -102,27.99999999999998,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>G14</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-95.99999999999994,27.99999999999998,0 -102,27.99999999999998,0 -102,24.00000000000011,0 -95.99999999999994,24.00000000000011,0 -95.99999999999994,27.99999999999998,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>G15</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-90,27.99999999999998,0 -95.99999999999994,27.99999999999998,0 -95.99999999999994,24.00000000000011,0 -90,24.00000000000011,0 -90,27.99999999999998,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>G16</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-83.99999999999994,27.99999999999998,0 -90,27.99999999999998,0 -90,24.00000000000011,0 -83.99999999999994,24.00000000000011,0 -83.99999999999994,27.99999999999998,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>H11</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-114,32.00000000000013,0 -120,32.00000000000013,0 -120,27.99999999999998,0 -114,27.99999999999998,0 -114,32.00000000000013,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>H12</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-107.9999999999999,32.00000000000013,0 -114,32.00000000000013,0 -114,27.99999999999998,0 -107.9999999999999,27.99999999999998,0 -107.9999999999999,32.00000000000013,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>H13</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-102,32.00000000000013,0 -107.9999999999999,32.00000000000013,0 -107.9999999999999,27.99999999999998,0 -102,27.99999999999998,0 -102,32.00000000000013,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>H14</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-95.99999999999994,32.00000000000013,0 -102,32.00000000000013,0 -102,27.99999999999998,0 -95.99999999999994,27.99999999999998,0 -95.99999999999994,32.00000000000013,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>I11</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-114,35.99999999999999,0 -120,35.99999999999999,0 -120,32.00000000000013,0 -114,32.00000000000013,0 -114,35.99999999999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>I12</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-107.9999999999999,35.99999999999999,0 -114,35.99999999999999,0 -114,32.00000000000013,0 -107.9999999999999,32.00000000000013,0 -107.9999999999999,35.99999999999999,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>G10</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-120.000000000036,28.00000000013148,0 -126.000000000036,28.00000000013148,0 -126.000000000036,24.00000000013161,0 -120.000000000036,24.00000000013161,0 -120.000000000036,28.00000000013148,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				
+					<Data name="clave"><value>H10</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-120.0000000000267,32.00000000007614,0 -126.0000000000267,32.00000000007614,0 -126.0000000000267,28.00000000007604,0 -120.0000000000267,28.00000000007604,0 -120.0000000000267,32.00000000007614,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
