@@ -2,32 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Aguas Someras.shp</name>
-	<Style id="falseColor0">
-		<BalloonStyle>
-			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]  $[licitacin]</b></h5>
-				<table style="border: solid 1px #3e8ed0;">
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Área</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">AGUAS SOMERAS</td>
-					</tr>
-				</table>]]></text>
-		</BalloonStyle>
-		<LineStyle>
-			<color>e6ffaa00</color>
-			<width>0.7</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>997f5500</color>
-		</PolyStyle>
-	</Style>
+	<open>1</open>
 	<StyleMap id="falseColor">
 		<Pair>
 			<key>normal</key>
@@ -38,37 +13,63 @@
 			<styleUrl>#falseColor1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor1">
+	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]</b></h5>
-				<table style="border: solid 1px #3e8ed0;">
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Área</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Someras</td>
-					</tr>
-				</table>]]></text>
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[area]</h5>
+			<table border="0">
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA 2</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area2]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Someras</td></tr>
+			</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
-			<color>e6ffaa00</color>
-			<width>0.7</width>
+			<color>ff5a16fc</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>997f5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[area]</h5>
+			<table border="0">
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA 2</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area2]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Someras</td></tr>
+			</table>
+			]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff5a16fc</color>
+		</LineStyle>
+		<PolyStyle>
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">
 		<name>Aguas Someras</name>
 		<open>1</open>
 		<Placemark>
-			<name>13</name>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -88,6 +89,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -107,6 +109,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -126,6 +129,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -145,6 +149,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -164,6 +169,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -183,6 +189,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -202,6 +209,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -221,6 +229,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -240,6 +249,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				
@@ -259,6 +269,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
+			
 			<styleUrl>#falseColor</styleUrl>
 			<ExtendedData>
 				

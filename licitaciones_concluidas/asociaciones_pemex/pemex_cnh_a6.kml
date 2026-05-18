@@ -3,45 +3,40 @@
 <Document>
 	<name>CNH-A6-7 Asociaciones-2018.shp</name>
 	<open>1</open>
-	<StyleMap id="falseColor">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor1">
+	<Style id="falseColor">
 		<BalloonStyle>
-			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[cluster]</b></h5>
-			<table style="border: solid 1px #3e8ed0;">
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[cluster]</h5>
+			<table border="0">
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Cluster</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CLUSTER</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[cluster]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de convocatoria</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>FECHA DE CONVOCATORIA</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_c]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de licitación</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>FECHA DE LICITACIÓN</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_l]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td
-					><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Ubicación</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>UBICACIÓN</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ubicacin]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>SUPERFICIE</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Estatus</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ESTATUS</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[estatus]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Tipo de contrato</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>TIPO DE CONTRATO</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[tipo_de_co]</td></tr>
-			</table>]]></text>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">CNH-A6-7 Asociaciones-2018</td></tr>
+			</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>e60055ff</color>
@@ -53,33 +48,38 @@
 	</Style>
 	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[cluster]</b></h5>
-			<table style="border: solid 1px #3e8ed0;">
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[cluster]</h5>
+			<table border="0">
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Cluster</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CLUSTER</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[cluster]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de convocatoria</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>FECHA DE CONVOCATORIA</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_c]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Fecha de licitación</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>FECHA DE LICITACIÓN</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[fecha_de_l]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td
-					><td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Ubicación</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>UBICACIÓN</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[ubicacin]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Superficie</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>SUPERFICIE</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[superficie]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Estatus</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ESTATUS</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[estatus]</td></tr>
 				<tr>
-					<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Tipo de contrato</b></td>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>TIPO DE CONTRATO</b></td>
 					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[tipo_de_co]</td></tr>
-			</table>]]></text>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">CNH-A6-7 Asociaciones-2018</td></tr>
+			</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>e60055ff</color>
@@ -89,10 +89,21 @@
 			<color>9900aaff</color>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder id="layer 0">
 		<name>CNH-A6-7 Asociaciones-2018</name>
+		<open>1</open>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="cluster"><value>Bacal-Nelash</value></Data>
@@ -127,7 +138,7 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="cluster"><value>Lacamango</value></Data>
@@ -151,7 +162,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="cluster"><value>Juspi-Teotleco</value></Data>
@@ -175,7 +186,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="cluster"><value>Giraldas-Sunuapa</value></Data>
@@ -199,7 +210,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="cluster"><value>Cinco Presidentes</value></Data>
@@ -223,7 +234,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="cluster"><value>Bedel-Gasífero</value></Data>
@@ -236,7 +247,6 @@
 					<Data name="tipo_de_co"><value>Licencia</value></Data>
 				
 			</ExtendedData>
-			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -248,7 +258,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="cluster"><value>Artesa</value></Data>

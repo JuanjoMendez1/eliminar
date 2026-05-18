@@ -3,36 +3,22 @@
 <Document>
 	<name>Aguas Someras.shp</name>
 	<open>1</open>
-	<Style>
-		<ListStyle>
-			<listItemType>radioFolder</listItemType>
-			<bgColor>00ffffff</bgColor>
-			<maxSnippetLines>2</maxSnippetLines>
-		</ListStyle>
-	</Style>
-	<StyleMap id="falseColor">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor1">
+	<Style id="falseColor">
 		<BalloonStyle>
-			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]  $[licitacin]</b></h5>
-				<table style="border: solid 1px #3e8ed0;">
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Área</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td>
-					</tr>
-				</table>]]></text>
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[area]</h5>
+			<table border="0">
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Someras</td></tr>
+			</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>d9ffffaa</color>
@@ -44,10 +30,20 @@
 	</Style>
 	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
-  <tr><td><b>Área</b></td><td>$[area]</td></tr>
-</table>]]></text>
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[area]</h5>
+			<table border="0">
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Someras</td></tr>
+			</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>d9ffffaa</color>
@@ -57,11 +53,22 @@
 			<color>99ff5555</color>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder id="layer 0">
 		<name>Aguas Someras</name>
 		<open>1</open>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -79,7 +86,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -97,7 +105,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -115,7 +124,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -133,7 +143,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -151,7 +162,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -169,7 +181,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -187,7 +200,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -205,7 +219,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -223,7 +238,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -241,7 +257,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -259,7 +276,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -277,7 +295,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>
@@ -295,7 +314,8 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#falseColor</styleUrl>
+			
+			<styleUrl>#falseColor1</styleUrl>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R01-L01/2014</value></Data>

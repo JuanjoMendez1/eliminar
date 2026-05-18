@@ -2,12 +2,33 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Aguas Profundas.shp</name>
+	<open>1</open>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="falseColor0">
 		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>Licitación</b></td><td>$[licitacin]</td></tr>
-  <tr><td><b>Área</b></td><td>$[area]</td></tr>
-</table>]]></text>
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[area]</h5>
+			<table border="0">
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Profundas</td></tr>
+			</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>e600aa00</color>
@@ -17,33 +38,22 @@
 			<color>80005500</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="falseColor1">
 		<BalloonStyle>
-			<text><![CDATA[<h5 style="color: #485fc7; font-size: 15px; text-align: center; margin: 15px auto;"><b>$[area]  $[licitacin]</b></h5>
-				<table style="border: solid 1px #3e8ed0;">
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Licitación</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>Área</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td>
-					</tr>
-					<tr>
-						<td style="font-size: 0.75rem; color: white; background-color: #3e8ed0; padding: 6px 9px !important;"><b>Capa</b></td>
-						<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">AGUAS PROFUNDAS</td>
-					</tr>
-			</table>]]></text>
+			<text><![CDATA[
+			<h5 style="color: #611232; font-size: 15px; text-align: center; margin: 15px auto;">$[area]</h5>
+			<table border="0">
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>LICITACIÓN</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[licitacin]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>ÁREA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">$[area]</td></tr>
+				<tr>
+					<td style="font-size: 0.75rem; color: white; background-color: #611232; padding: 6px 9px !important; border-bottom: solid 1px #fff;"><b>CAPA</b></td>
+					<td style="padding: 6px 9px !important; border: solid 1px #D3D3D3;">Aguas Profundas</td></tr>
+			</table>
+			]]></text>
 		</BalloonStyle>
 		<LineStyle>
 			<color>e600aa00</color>
@@ -56,8 +66,8 @@
 	<Folder id="layer 0">
 		<name>Aguas Profundas</name>
 		<Placemark>
-			<name>12</name>
 			<styleUrl>#falseColor</styleUrl>
+			<open>1</open>
 			<ExtendedData>
 				
 					<Data name="licitacin"><value>CNH-R02-L04/2017</value></Data>
